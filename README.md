@@ -30,3 +30,10 @@ or ever re-ran in the same test
 Explore the Test File <br>
 Recommended to only run one test (one <code>it()</code> statement) at a time <br>
 Select Test by moving around <code> it.only() </code>
+
+## The Problem
+In the Browser while cypress isn't running it takes roughly 5 seconds for items to load.<br>
+However while cypress queries the dom in the test as the page loads and re-renders<br>
+The Loading time can bloat to significantly, as much as 2x or 3x.  <br>
+But once the test finishes. The loading returns to normal times, even while using the cypress<br>
+Interactable window.
