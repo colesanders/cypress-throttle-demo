@@ -1,0 +1,7 @@
+{
+  "name": "cypressThrottleDemo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
